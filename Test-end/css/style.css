@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1000px;
+    height: 1500px;
+    background-color: aliceblue;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-color: antiquewhite;
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(34, 34, 54);
+    position: relative;
+}
+nav .nav-bar ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav .nav-bar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 60px;
+    padding-left: 20px;
+}
+nav .nav-bar .underline{
+    text-decoration: underline;
+    color: aliceblue;
+}
+nav .input-nav input[type="text"]{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 35%;
+}
+nav .input-nav input[type="button"]{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 8%;
+    margin-right: 5px;
+    background-color: rgb(20, 20, 145);
+    border: none;
+    border: 1px solid white;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+}
+article{
+    width: 100%;
+    height: 500px;
+    /* background-color: black; */
+}
+.section-ar .box-if{
+    width: 30%;
+    height: 350px;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+.section-ar .image-if{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.section-ar .image-if img{
+    width: 80%;
+    height: 100%;
+    padding-top: 10px;
+}
+.section-ar .title-if h3, .section-ar .note-if p{
+    padding: 10px 0;
+}
+.section-ar .title-if h3{
+    color: brown;
+}
+.section-ar .note-if p{
+    font-size: 14px;
+}
+.title-if, .note-if{
+    width: 80%;
+    /* background-color: rgb(106, 172, 172); */
+    margin: auto;
+}
+.sider{
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+}
+.sider img{
+    width: 100%;
+    height: 100%;
+}
