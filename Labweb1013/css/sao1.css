@@ -1,0 +1,36 @@
+strong{
+    color: brown;
+}
+em.doan1{
+    color: red;
+}
+em.doan2{
+    color: blue;
+}
+em.doan3{
+    color: green;
+}
+em.doan4{
+    color: red;
+}
+em{
+    font-variant: small-caps;
+    font-size: 20px;
+    word-spacing: 2px;  /*Khoảng cách các từ của văn bản*/
+    letter-spacing: 1px; /*Khoảng cách kỹ tự của văn bản*/
+    line-height: 25px;  /*Khoảng cách chiều cao các dòng của văn bản*/
+
+}
+h2{
+    color: white;
+    text-shadow: 0 0 5px red;
+    /*
+    Độ lệch ngang: 0 (không có độ lệch ngang)
+    Bán kính mờ: 5px (kích thước của bóng)
+    Màu sắc: đỏ (màu của bóng)
+    Độ lệch dọc: 0 (không có độ lệch dọc)
+    */
+}
+body{
+    text-align: center;
+}

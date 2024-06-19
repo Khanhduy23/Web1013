@@ -1,0 +1,13 @@
+.box>img{
+    width: 20%;
+    height: 400px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px blue;
+}
+.box>img:hover{
+    box-shadow: 0 0 20px red;
+    background-color: aqua;
+}

@@ -1,0 +1,192 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    height: 1000px;
+    background-color: aliceblue;
+    margin: auto;
+    position: relative;
+}
+.container .account{
+    background-color: rgb(41, 137, 173);
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /* text-align: center; */
+    font-variant: small-caps;
+    border-bottom-left-radius: 30px;
+}
+.container .account>a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 5px;
+}
+.container .account>a:hover{
+    text-decoration: underline;
+}
+.container .company-info{
+    width: 300px;
+    height: 100px;
+    /* background-color: brown; */
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+}
+.container .company-info>h1{
+    margin: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    color: white;
+    font-size: 25px;
+    border-bottom: 1px solid orangered;
+    text-shadow: 0 0 5px orangered;
+    box-shadow: 0 0 5px yellow;
+}
+.container .company-info>h3{
+    margin: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    color: rgb(229, 69, 25);
+    font-size: 30px;
+
+}
+.container>header{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 0px;
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+    position: relative;
+}
+.container>header>img{
+    width: 100%;
+    height: 250px;
+}
+.container>nav{
+    background-color: rgb(254, 178, 80);
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 0px;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.container>article{
+    background-color: rgb(249, 239, 239);
+    width: 75%;
+    height: 650px;
+    float: left;
+}
+.container>aside{
+    background-color: rgb(253, 226, 226);
+    min-height: 650px;
+    width: 25%;
+    float: right;
+}
+.vmenu>ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url('/Laphtml&css/file/img/bullet_yellow.png') no-repeat 10px center ;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 40px;
+    color: orangered;
+}
+.vmenu a:hover{
+    background: url('/Laphtml&css/file/img/bullet_red.png') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.container>footer{
+    width: 100%;
+    height: 100px;
+    background-color: lightcyan;
+    border-top: 5px double orangered;
+    clear: both;
+    text-align: center;
+    font-variant: small-caps;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+.col-25{
+    border-radius: 10px;
+    margin-top: 12px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod>.image{
+    max-width: 80%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: orange;
+}
+.prod>.icons{
+    /* background-color: aqua; */
+    width: 25px;
+    height: auto;
+    /* right: 5px; */
+    bottom: 5px;
+    float: right;
+    margin-top: 80px;
+}
+.prod>.icons img{
+    width: 100%;
+    height: 20px;
+}
+.prod>.new-icon{
+    position: absolute;
+    /* background-color: blue; */
+    width: 32px;
+    height: auto;
+    top: 0px;
+    right: 0px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lap9b2.css">
+    <!-- <link rel="stylesheet" href="css/Tongquanlap.css"> -->
+</head>
+<body>
+<div class="container">
+    <form action="/action_page.php">
+        <div class="form-group">
+            <label for="name">Họ và tên:</label><br>
+            <input type="text" tabindex="1" class="form-control">
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend>Giới tích</legend>
+                <input type="radio" id="gioitinh" name="gioitinh">
+                <label for="gioitinh">Nam</label>
+                <input type="radio" id="gioitinh" name="gioitinh">
+                <label for="gioitinh">Nữ</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <label for="date">Ngày Sinh</label><br>
+            <input type="date" id="date" name="date" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="diem">Điểm</label><br>
+            <input type="number" id="diem" name="diem" class="form-control" min="0" max="10"step="0.25">
+        </div>
+        <div class="form-group">
+            <label for="jobs">Nghề Nghiệp</label><br>
+            <input list="jobs" id="job" name="job" class="form-control">
+            <datalist id="jobs">
+                <option value="Chăn nuôi"></option>
+                <option value="Bác sĩ"></option>
+                <option value="Chăn nuôi"></option>
+                <option value="Chăn nuôi"></option>
+                <option value="Chăn nuôi"></option>
+            </datalist>
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend>Sở thích</legend>
+                <input type="checkbox" id="sothich" name="sothich">
+                <label for="sothich">Thể Thao</label>
+                <input type="checkbox" id="sothich" name="sothich">
+                <label for="sothich">Du Lịch</label>
+                <input type="checkbox" id="sothich" name="sothich">
+                <label for="sothich">Âm Nhạc</label>
+                <input type="checkbox" id="sothich" name="sothich">
+                <label for="sothich">Ẩm Thực</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <label for="ghichu">Nghi chú</label><br>
+            <textarea class="clicked" name="note" id="note" tabindex="2" rows="5" cols="80">
+    
+            </textarea>
+        </div>
+        <div class="form-group">
+            <button class="form-button" tabindex="3">Thêm</button>
+            <button class="form-button" tabindex="4">Nhập lại</button>
+            <!-- <button class="form-button" tabindex="5" disabled>Xóa</button> -->
+        </div>
+    </form>
+    <div class="rn">
+        <ul>
+            <li><a href="index.html"><h3>Quay lại</h3></a></li>
+            <li><a href="#"><h3>Bài tiếp theo</h3></a></li>
+        </ul>
+    </div>  
+</div>
+</body>
+</html>
